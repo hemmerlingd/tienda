@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "foto" : "https://firebasestorage.googleapis.com/v0/b/angular-tienda-36db6.appspot.com/o/team-1.jpg?alt=media&token=12212221-2955-45ac-9e5a-457e3f010c61",
+    "frase" : "asdasda",
+    "nombre" : "nombre",
+    "subtitulo" : "subtitulo",
+    "twitter" : "@nombre"
+  }, {
+    "foto" : "https://firebasestorage.googleapis.com/v0/b/angular-tienda-36db6.appspot.com/o/team-2.jpg?alt=media&token=4398fbde-9cb6-4785-be0a-a3391d0bb3cf",
+    "frase" : "dgklgdnfadf",
+    "nobre" : "melisa",
+    "subtitulo" : "sub melisa",
+    "twitter" : "@melisa"
+  }, {
+    "foto" : "https://firebasestorage.googleapis.com/v0/b/angular-tienda-36db6.appspot.com/o/team-3.jpg?alt=media&token=82898e5a-fefa-4d7c-8ab0-6e261c3ada2e",
+    "frase" : "rtoyroijgod",
+    "nombre" : "Juan",
+    "subtitulo" : "sub Juan",
+    "twitter" : "@juan"
+  } ]
+}

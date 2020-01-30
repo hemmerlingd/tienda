@@ -27,10 +27,10 @@ export class InfoPaginaService {
 
   private cargarEquipo(){
   		this.http.get('https://angular-tienda-36db6.firebaseio.com/equipo.json')
-	  	.subscribe((resp: infoTeam)=>{
+	  	.subscribe((resp:any[])=>{
 
 	  		this.equipo = resp;
-	  		console.log(this.equipo);
+	  		//console.log(this.equipo);
 	  	});
   }
 }
