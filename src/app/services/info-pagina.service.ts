@@ -9,7 +9,7 @@ import { infoTeam } from '../interfaces/team.interface';
 export class InfoPaginaService {
 
 	info: InfoPagina = {};
-	equipo:infoTeam =[];
+	equipo:any[] =[];
 	cargada = false;
 
   constructor( private http: HttpClient) { 

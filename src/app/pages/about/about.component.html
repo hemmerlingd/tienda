@@ -1,8 +1,8 @@
       <div class="ae-grid au-xs-ta-center au-mb-4">
         <div *ngFor="let persona of infoTeam.equipo" class="animated fadeIn ae-grid__item item-lg-4 ae-kappa au-mb-3"><img src="{{ persona.foto }}" alt="" class="au-mb-3">
           <h5 class="ae-u-bolder au-mt-2">{{ persona.nombre }}</h5>
-          <p class="ae-u-bolder au-mb-3">{{ subtitulo.subtitulo }} </p>
-          <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ persona.frase }}</p><a href="#0" class="ae-u-bolder au-underline">{{ persona.twitter }}</a>
+          <p class="ae-u-bolder au-mb-3">{{ persona.subtitulo }} </p>
+          <p class="au-lg-ta-left au-mb-3 au-pl-4 au-pr-4">{{ persona.frase }}</p><a target="_blank" href="https://www.twitter.com/{{ persona.twitter }}" class="ae-u-bolder au-underline">{{ persona.twitter }}</a>
         </div>
       </div>
       <div class="ae-grid au-pt-2">
