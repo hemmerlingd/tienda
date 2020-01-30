@@ -4,5 +4,4 @@ export interface InfoPagina {
 	facebook?:string;
 	twitter?:string;
 	instagram?:string;
-	equipo_trabajo?: any[];
 }
